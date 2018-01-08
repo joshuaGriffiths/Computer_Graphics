@@ -1,0 +1,41 @@
+Final Project
+
+Joshua Griffiths
+CSCI4229/5229 Fall 2017
+
+3d Text Editor
+
+Key bindings
+
+	LIGHTING
+  l          Toggle lighting on/off
+  a/A        decrease/increase ambient light
+  d/D        decrease/increase diffuse light
+  s/S        decrease/increase specular light
+  e/E        decrease/increase emitted light
+  n/N        Decrease/increase shininess
+  []         Lower/rise light height
+	VIEWING
+  m/M         Toggles through perspective and orthographic viewing mode
+  arrows     Change view angle in perspective / orthographic
+  PgDn/PgUp  Zoom in and out (In Perspective)
+  f/F        Toggles first person mode
+  wasd       Move in fp mode
+	PRESETS
+  p/P        Toggle through 3d text presets	
+  
+  	MISC
+  0          Reset view angle
+  ESC        Exit
+
+
+TO RUN PROJECT
+~make clean
+~make
+~./final
+
+WHAT TOOK THE MOST EFFORT
+-Getting the c++ compatible text creation running and displaying correctly.
+-Building all the letters.
+-Getting user inputs for differnt display types.
+-Sizing and spacing for differnt inputs.
